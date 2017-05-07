@@ -1,0 +1,150 @@
+body {
+  padding-top: 70px;
+  background-color: #555;
+}
+
+.active {
+  color: #222 !important;
+}
+
+@media screen and (max-width : 768px) {
+  body { 
+    padding-top: 210px;
+  }
+}
+.navbar {
+  background-color: #ff7f00;
+  border-bottom: solid #000 1px;
+}
+.navbar-default .navbar-header>a {
+  color: #000;
+}
+.navbar-default .navbar-header>a:hover {
+  color: #222;
+}
+.navbar-header {
+  font-weight: 900;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #eee;
+}
+
+.nav-link {
+  font-size: 1.7em;
+  margin-left: 10px;
+}
+.page {
+  background-color: #fafafa;
+}
+p {
+  font-size: 1.3em;
+}
+
+h2 {
+  font-size: 3em;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+.about-section {
+  border-bottom: solid #555 50px;
+  padding: 40px 0;
+}
+
+.portfolio-section {
+  border-bottom: solid #555 50px;
+  padding: 0 40px;
+  padding-bottom: 40px;
+}
+
+.contact-section {
+  padding-bottom: 20px;
+}
+
+.photo {
+  border-radius: 50%;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+  {
+  border-style: dashed;
+  border-width: 1px;
+}
+
+.pen-img {
+}
+#codepen-logo {
+  height: 1.4em;
+  padding: 2px;
+  margin-right: 4px;
+}
+.codepen-pair {
+}
+
+.pen {
+  text-align: center;
+  display: inline;
+}
+figure {
+  background-color: #999;
+  padding: 7px;
+}
+
+figcaption {
+  margin: 6px 0 2px 0;
+  font-size: 1.2em;
+}
+
+#contact-details {
+  font-size: 1.5em;
+}
+
+ul {
+  list-style: none;
+}
+
+#contact div div p {
+  font-size: 2em;
+}
+#social-list {
+  padding-left: 0;
+}
+.social {
+  display: inline-block;
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.social-button {
+  margin: 5px;
+  border-style: solid;
+  border-radius: 6px;
+  border-width: 2px;
+  padding: 5px 9px;
+  color: #3f3f3f;
+}
+a.social-button:hover {
+  background-color: #3f3f3f;
+  border-color: #3f3f3f;
+  color: #ddd;
+  text-decoration: none;
+}
+
+.social a {
+  
+}
+.footer {
+  margin-top: 30px;
+  background-color: #ff7f00;
+  padding: 6px;
+  border-top: solid #000 1px;
+}
+#copyright {
+  font-size: 1.3em;
+}
